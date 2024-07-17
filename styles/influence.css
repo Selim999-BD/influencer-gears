@@ -93,17 +93,17 @@
 .card-box{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
-    grid-gap: 50px 0;
+    grid-gap: 30px;
 }
 .card{
-    max-width: 430px;
+    max-width: 530px;
     background-color: #fff;
     border:1px solid #dbdbdb;
     padding:10px;
     box-shadow: 0 5px 10px lightgray;
 }
 .card>.img{
-    width:400px;
+    max-width:400px;
     height:356px;
     margin: 0 auto;
 }
